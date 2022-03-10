@@ -1,7 +1,7 @@
 package com.codepath.apps.restclienttemplate
 
-import android.text.Layout
-import android.util.Log
+import EndlessRecyclerViewScrollListener
+import TimeFormatter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,9 +11,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.codepath.apps.restclienttemplate.models.Tweet
 
+
 private const val TAG = "TweetsAdapter: "
 
 class TweetsAdapter (val tweets: ArrayList<Tweet>) : RecyclerView.Adapter<TweetsAdapter.ViewHolder>() {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TweetsAdapter.ViewHolder {
         val context = parent.context
         val inflator = LayoutInflater.from(context)

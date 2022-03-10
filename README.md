@@ -33,9 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-#TODO - Update video walkthrough
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='walkthroughTweet.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
 
 ## Notes
 

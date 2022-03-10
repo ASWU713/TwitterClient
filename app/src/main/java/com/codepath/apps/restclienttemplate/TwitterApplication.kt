@@ -1,10 +1,14 @@
 package com.codepath.apps.restclienttemplate
 
+import EndlessRecyclerViewScrollListener
+import android.R
 import android.app.Application
 import android.content.Context
+import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
 import com.codepath.oauth.OAuthBaseClient
 import com.facebook.stetho.Stetho
+
 
 /*
 * This is the Android application itself and is used to configure various settings
@@ -16,6 +20,8 @@ import com.facebook.stetho.Stetho
 *
 */
 class TwitterApplication : Application() {
+
+    private val scrollListener: EndlessRecyclerViewScrollListener? = null
 
     var myDatabase: MyDatabase? = null
 
