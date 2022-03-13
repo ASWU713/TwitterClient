@@ -37,7 +37,7 @@ class LoginActivity : OAuthLoginActionBarActivity<TwitterClient>() {
         // val i = Intent(this, PhotosActivity::class.java)
         // startActivity(i)
         Log.i("Andrew", "Login Success")
-        val i = Intent(this, Timelinectivity::class.java)
+        val i = Intent(this, TimelinActivity::class.java)
         startActivity(i)
 
     }
