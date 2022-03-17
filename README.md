@@ -42,7 +42,7 @@ Here's a walkthrough of implemented user stories:
 Describe any challenges encountered while building the app.
 
 
-Simple Tweet Part 1
+## Simple Tweet Part 1
 
 ## User Stories
 
